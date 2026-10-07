@@ -69,8 +69,8 @@ Dev Stack Builder is a responsive React and TypeScript website built for explori
 1. Clone the repository and open the project directory:
 
    ```bash
-   git clone https://github.com/irfanhossaintanjid/assignment-6.git
-   cd assignment-6
+   git clone https://github.com/irfanhossaintanjid/dev-stack-builder.git
+   cd dev-stack-builder
    ```
 
 2. Install dependencies:
