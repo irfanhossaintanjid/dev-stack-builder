@@ -2,6 +2,20 @@
 
 Dev Stack Builder is a responsive React and TypeScript website built for exploring development technologies and assembling a personal project stack. Technology records are loaded from a local JSON file, making the catalog easy to update.
 
+## 🔗 Relevant Links
+
+- **Live Demo:** [https://dev-stack-builder.netlify.app](https://dev-stack-builder.netlify.app) 
+
+
+---
+
+## 📸 Preview / Screenshot
+
+<img width="212" height="360" alt="image" src="https://github.com/user-attachments/assets/ced847cf-2e25-4aac-947c-58d99e260103" />
+ 
+
+---
+
 ## Technologies Used
 
 * React
@@ -41,3 +55,41 @@ Dev Stack Builder is a responsive React and TypeScript website built for explori
 
 ### 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
 **Ans:** A parent component passes data or functions to a child component using props. When an action occurs (like a button click), the child component calls the function prop to communicate back to the parent.
+
+
+## 🚀 Run Locally
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) 20.9 or later
+- npm (included with Node.js)
+
+### Setup
+
+1. Clone the repository and open the project directory:
+
+   ```bash
+   git clone https://github.com/irfanhossaintanjid/assignment-6.git
+   cd assignment-6
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm ci
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+To create and run a production build, use:
+
+```bash
+npm run build
+npm run start
+```
